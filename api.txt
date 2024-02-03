@@ -1,5 +1,6 @@
 792a98b0f7ddaddb1be689c903744049
 piTKgcLEGmPE4e6mEKli
 N0mRE724Xfyy7x7PADTJEOm4uTEqFTok
+C:\\Users\\zombi\\OneDrive\\Desktop\\ai_call\\ai_call\\audios
 
 1st line = api_key and 2nd line = voice_id FOR ai_tts.py | third line is api key for txt_to_sp.py
