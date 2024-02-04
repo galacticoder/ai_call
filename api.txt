@@ -1,8 +1,5 @@
-f8f088a2120e7f884d4bfbb91f327ec8
-piTKgcLEGmPE4e6mEKli
+get api from eleven labs
 N0mRE724Xfyy7x7PADTJEOm4uTEqFTok
-C:\\Users\\zombi\\OneDrive\\Desktop\\ai_call\\ai_call\\audios\\ai_audio
-C:\\Users\\zombi\\OneDrive\\Desktop\\ai_call\\ai_call\\audios\\user_audio
-a66e0d4d0779414faad40955cdba8e42
+C:\\Users\\#rest of path\\ai_call\\ai_call\\audios\\ai_audio
 
-1st line = api_key and 2nd line = voice_id FOR ai_tts.py | third line is api key for txt_to_sp.py | line 6 is api key for assembly ai
+1st line = api_key | 2nd line = voice_id (keep same for best voice recommended)| third line is api key for txt_to_sp.py | line 4 is path to audios/ai_audio folder

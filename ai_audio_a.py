@@ -2,9 +2,7 @@ import shutil
 import requests
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import os
-import assemblyai as aai
 import speech_recognition as sr
-from gtts import gTTS
 import torch
 from email_sender import *
 from mutagen.mp3 import MP3
@@ -12,13 +10,11 @@ import time
 
 #if getting corrupt mp3 output then api is out of words
 
-with open("C:\\Users\\zombi\\OneDrive\\Desktop\\ai_call\\ai_call\\api.txt", "r") as api_file:
+with open("api.txt", "r") as api_file:
     lines = api_file.readlines()
     api_key = lines[0].strip()
     voice_id = lines[1].strip()
-    ai_path = lines[3].strip()
-    user_path = lines[4].strip()
-    api_assembly = lines[5].strip()
+    ai_path = lines[2].strip()
 
 try:
     def get_audio():
@@ -80,9 +76,9 @@ try:
     shutil.move('ai_output.mp3', ai_path)
     os.system("start "+ai_path+"\\ai_output.mp3")
 
-    send_email(sender_email="galacticoderr@gmail.com",
-            sender_password="jlnw esrt tjlu bnfp",
-            recipient_email='someonedmta@gmail.com',
+    send_email(sender_email="", #adjust
+            sender_password="", #use app password
+            recipient_email='', #adjust
             subject="Ai Output",
             message='ai output',
             attachment_path=ai_path+"\\ai_output.mp3"
