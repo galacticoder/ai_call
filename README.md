@@ -27,7 +27,8 @@ Before running the script, make sure to have the following dependencies installe
    pip install shutil requests transformers torch email_sender mutagen SpeechRecognition
    
 2. Create the `api.txt` file:
-   ###An API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
+
+   An API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
    **line 1**  | **Your [eleven labs](https://elevenlabs.io/) api key**
    ------------- | -------------
    **line 2** | **Your voice id from eleven labs**
