@@ -19,7 +19,7 @@ Additionally, an API key, voice ID, and file path configurations should be provi
    ```
    [line 1] your api key
    [line2] your voice id
-   [line3} your path to the ai folder
+   [line3] your path to the ai folder
 ```
 
 ## Usage
