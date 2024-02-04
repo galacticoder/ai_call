@@ -1,5 +1,0 @@
-get api from eleven labs
-N0mRE724Xfyy7x7PADTJEOm4uTEqFTok
-C:\\Users\\#rest of path\\ai_call\\ai_call\\audios\\ai_audio
-
-1st line = api_key | 2nd line = voice_id (keep same for best voice recommended)| third line is api key for txt_to_sp.py | line 4 is path to audios/ai_audio folder
