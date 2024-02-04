@@ -45,7 +45,7 @@ Adjust the following parameters in the script according to your preferences(not 
 - `stability` and `similarity_boost`: Adjust voice settings in the data dictionary.
 - `sender_email`, `sender_password`, and `recipient_email`: Configure email details for sending the AI output.
 
-**Note:** Make sure to use secure methods to handle sensitive information like API keys and email credentials.
+**Note:** Make sure to not show anyone else sensitive information like API keys.
 
 ## Important Notes
 
@@ -53,3 +53,4 @@ Adjust the following parameters in the script according to your preferences(not 
 - If no input is given during the speech recognition stage, the script will print a corresponding message and exit.
 
 Feel free to customize and integrate this script into your projects for enhanced text-to-speech capabilities using GPT-2.
+Updates to the ai model in the future will be coming using better models
