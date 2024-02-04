@@ -15,7 +15,12 @@ Before running the script, make sure to have the following dependencies installe
 - `email_sender` (please make sure this module is available)
 - `mutagen`
 
-Additionally, an API key, voice ID, and file path configurations should be provided in the `api.txt` file.
+Additionally, an API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
+   ```
+   **[line 1]** your api key
+   **[line2]** your voice id
+   **[line3}** your path to the ai folder
+```
 
 ## Usage
 
