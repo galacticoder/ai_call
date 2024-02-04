@@ -32,7 +32,7 @@ Additionally, an API key, voice ID, and file path configurations should be provi
    ```bash
    pip install shutil requests transformers torch email_sender mutagen SpeechRecognition
    
-3. Create the info file:
+3. Create the `'api.txt'` file:
 
    
 
