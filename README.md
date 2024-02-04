@@ -54,4 +54,5 @@ Adjust the following parameters in the script according to your preferences(not 
 - If no input is given during the speech recognition stage, the script will print a corresponding message and exit.
 
 Feel free to customize and integrate this script into your projects for enhanced text-to-speech capabilities using GPT-2.
+
 Updates to the ai model in the future will be coming using better models
