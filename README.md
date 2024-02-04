@@ -16,10 +16,10 @@ Before running the script, make sure to have the following dependencies installe
 - `mutagen`
 
 Additionally, an API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
-   **line1**  | **Your [eleven labs](https://elevenlabs.io/) api key**
+   **line 1**  | **Your [eleven labs](https://elevenlabs.io/) api key**
    ------------- | -------------
-   Content Cell  | Content Cell
-   Content Cell  | Content Cell
+   **line 2** | **Your voice id from eleven labs**
+   **line 3**  | **Your path to the `ai_call/audios/ai_audio`**
 
 ## Usage
 
