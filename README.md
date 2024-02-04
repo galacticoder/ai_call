@@ -26,19 +26,14 @@ Before running the script, make sure to have the following dependencies installe
    ```bash
    pip install shutil requests transformers torch email_sender mutagen SpeechRecognition
    
-3. Create the `api.txt` file:
-   An API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
+2. Create the `api.txt` file:
+   ###An API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
    **line 1**  | **Your [eleven labs](https://elevenlabs.io/) api key**
    ------------- | -------------
    **line 2** | **Your voice id from eleven labs**
    **line 3**  | **Your path to the `ai_call/audios/ai_audio`**
 
-    
-   
-
-   
-
-Speak into the microphone when prompted, and the script will generate AI audio output based on your speech.
+Run the script and Speak into the microphone when prompted, and the script will generate AI audio output based on your speech.
 
 ## Configuration
 
