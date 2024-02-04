@@ -16,9 +16,9 @@ Before running the script, make sure to have the following dependencies installe
 - `mutagen`
 
 Additionally, an API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
-   your [eleven labs](https://elevenlabs.io/) api key
-   your voice id
-   your path to the ai folder
+   - your [eleven labs](https://elevenlabs.io/) api key
+   - your voice id
+   - your path to the ai folder
 
 ## Usage
 
