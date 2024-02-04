@@ -16,7 +16,7 @@ Before running the script, make sure to have the following dependencies installe
 - `mutagen`
 
 Additionally, an API key, voice ID, and file path configurations should be provided in the `api.txt` file in this order:
-   line1  | Second Header
+   **line1**  | **Second Header**
    ------------- | -------------
    Content Cell  | Content Cell
    Content Cell  | Content Cell
