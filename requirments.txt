@@ -1,6 +1,0 @@
-requests==2.26.0
-transformers==4.16.2
-speechrecognition==3.8.1
-torch==1.10.0
-email-sender==0.1.0  # Replace with the actual version if available
-mutagen==1.45.1
