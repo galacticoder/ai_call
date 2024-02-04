@@ -22,10 +22,13 @@ Additionally, an API key, voice ID, and file path configurations should be provi
 1. Ensure the required dependencies are installed by running:
 
    ```bash
-   pip install -r /path/to/requirements.txt
+   pip install -r requirements.txt
+   ```
+   If that doesn't work, you can install manually by running:
+   ```bash
    pip install shutil requests transformers torch email_sender mutagen SpeechRecognition
    
-2. Create the info file:
+3. Create the info file:
 
    
 
