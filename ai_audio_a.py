@@ -1,3 +1,5 @@
+#Licenced under the MIT licence
+#Created by https://github.com/galacticoder/
 import shutil
 import requests
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
@@ -32,9 +34,9 @@ try:
 
         return said
 
-    print("speak nigga we recording\n")
+    print("Recording voice speak now\n")
     text = get_audio()
-    print("\nshut up nigga we not recording")
+    print("\nRecording stopped")
 
     model_name = "gpt2-xL"
     model = GPT2LMHeadModel.from_pretrained(model_name)
@@ -52,7 +54,7 @@ try:
     user_input = text
 
     input_ids = tokenizer.encode(user_input, return_tensors="pt")
-    attention_mask = torch.ones(input_ids.shape, device=input_ids.device)  # Add this line to create attention mask
+    attention_mask = torch.ones(input_ids.shape, device=input_ids.device)  # Add this line to create attention mask for no weird output
 
     with torch.no_grad():
         output = model.generate(input_ids, max_length=300, num_return_sequences=1, no_repeat_ngram_size=2, attention_mask=attention_mask)
@@ -75,14 +77,6 @@ try:
                 
     shutil.move('ai_output.mp3', ai_path)
     os.system("start "+ai_path+"\\ai_output.mp3")
-
-    send_email(sender_email="", #adjust
-            sender_password="", #use app password
-            recipient_email='', #adjust
-            subject="Ai Output",
-            message='ai output',
-            attachment_path=ai_path+"\\ai_output.mp3"
-    )
 
     audio = MP3(ai_path+"\\ai_output.mp3")
     a_l = audio.info.length
